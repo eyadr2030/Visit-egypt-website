@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+body {
+  font-family: Arial;
+  padding: 30px;
+}
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+/* .section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.section h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 1;
+  color: white;
+  animation: infinite;
+}
+.video-container {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
+
+/* h2:active {
+  color: red;
+  cursor: pointer;
+} */
+
+/* button {
+  background-color: yellowgreen;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: blue;
+  cursor: pointer;
+}
+h1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid blue;
+} */
+
+/* li:first-child {
+  color: purple;
+  font-weight: bold;
+}
+  */
+/* li:nth-child(3) {
+  color: orange;
+
+} */
+
+.title::before {
+  content: "⭐ ";
+}
+
+.title::after {
+  content: " ⭐";
+}
+
+/* p::first-letter {
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+} */
+
+/* p::first-line {
+  color: blue;
+}
+
+p::selection {
+  background: yellow;
+  color: black;
+}
+
+input::placeholder {
+  color: red;
+  font-style: italic;
+} */

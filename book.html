@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="image"></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="music.html">Music</a>
+        <a href="food.html">Food</a>
+        <a>Travel with us</a>
+      </nav>
+    </header>
+    <main class="diff">
+      <h1>Book your trip in Egypt ✈️</h1>
+
+      <form>
+        <label>Full Name</label>
+        <input type="text" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label>Gender</label>
+        <div class="radio-group">
+          <label for="male">
+            <input type="radio" id="male" name="gender" value="male" /> Male
+          </label>
+
+          <label for="female">
+            <input type="radio" id="female" name="gender" value="female" />
+            Female
+          </label>
+        </div>
+
+        <label for="arrival">Arrival Date</label>
+        <input type="date" id="arrival" name="arrival_date" />
+
+        <label for="profilePic">Profile Picture</label>
+        <input type="file" id="profilePic" name="profile_picture" />
+
+        <label for="passport">Passport</label>
+        <input type="file" id="passport" name="passport" />
+
+        <label for="visa">Visa</label>
+        <input type="file" id="visa" name="visa" />
+
+        <label for="destination">Where would you like to travel?</label>
+        <select id="destination" name="destination">
+          <option value="">Choose one</option>
+          <option value="cairo">Cairo</option>
+          <option value="luxor">Luxor</option>
+          <option value="alexandria">Alexandria</option>
+        </select>
+
+        <label>Services you need</label>
+        <div class="checkbox-group">
+          <label for="tickets">
+            <input
+              type="checkbox"
+              id="tickets"
+              name="services"
+              value="tickets"
+            />
+            Airline Tickets
+          </label>
+
+          <label for="car">
+            <input type="checkbox" id="car" name="services" value="car" />
+            Rental Car
+          </label>
+
+          <label for="hotel">
+            <input type="checkbox" id="hotel" name="services" value="hotel" />
+            Hotel Accommodation
+          </label>
+        </div>
+
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" rows="6"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2026 Egypt ❤️. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
